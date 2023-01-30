@@ -11,3 +11,5 @@ To use extension, create a new file called node_modules, and put the following f
 - mime-types
 - openai
 - .package-lock
+
+Finally pack the extension in your browser.
