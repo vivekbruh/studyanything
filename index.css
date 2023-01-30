@@ -1,0 +1,71 @@
+
+body {
+    width: 550px;
+    height: 305px;
+    transition: 1s;
+}
+
+body::-webkit-scrollbar{
+    width: 0px;
+}
+
+#key_needed {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+#key_needed input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+#key_needed button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #0077C9;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#key_entered {
+    display: none;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+}
+#key_entered button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #0077C9;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+#Notes {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    display: none;
+}
+#Notes input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+#Notes button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #0077C9;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.Outputs {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 2rem 0;
+    display: none;
+}
